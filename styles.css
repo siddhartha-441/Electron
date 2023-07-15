@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Norwester", Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+  height: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  background-color: #000000;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo img {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://media.istockphoto.com/id/499680089/photo/light-blue-sky.jpg?s=612x612&w=0&k=20&c=Sxj_elMitmPyqcX0z1x7vJdVyT_HZhmYdqLf63uEcgA=") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Rest of the CSS code... */
