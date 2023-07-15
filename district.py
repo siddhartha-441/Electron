@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import mysql.connector
 import sys 
+
 mydb = mysql.connector.connect(host='localhost',password='@spiderweb45', user= 'root',database='ss')
 mycursor = mydb.cursor()
 
@@ -16,6 +17,7 @@ df1.columns=['a','b','c','d','e','f','g']
 df2 = pd.DataFrame(table_2500cr)
 df2.columns=['a','b','c','d','e','f','g']
 
+#STANDARD STREAM INPUT
 district_name = sys.argv[1]
 
 District = pd.DataFrame(data=0, columns=['Length in kms(1000cr)', 'No. of works(1000cr)',
@@ -74,5 +76,5 @@ for i in columns:
 District.loc['Works Sanctioned'] = list
 
 
-print("kaboooooooooooom")
+print(District.to_markdown())
 sys.stdout.flush()
