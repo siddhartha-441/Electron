@@ -91,5 +91,5 @@ def Circle(dis_vector):
 
     print(Circle_df.to_markdown())
 
-
 Circle(dis_vector)
+sys.stdout.flush()
