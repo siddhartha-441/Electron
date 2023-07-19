@@ -66,6 +66,7 @@ nav ul li a {
 main {
   padding: 20px;
 }
+
 .center-image {
   display: flex;
   justify-content: center;
@@ -77,10 +78,12 @@ main {
   max-width: 100%;
   max-height: 100%;
 }
+
 .logo img {
   width: 150px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -88,4 +91,69 @@ body {
   background-size: cover;
 }
 
-/* Rest of the CSS code... */
+.block {
+  display: inline-block;
+  width: 200px; /* Adjust the width as needed */
+  border: none;
+  background-color: rgb(232, 116, 147);
+  padding: 40px 80px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  opacity: 0.9;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #0a0a0a;
+  border-style: ridge;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: 45px;
+}
+
+.block:hover {
+  background-color: #aca12b;
+}
+
+.block1 {
+  display: inline-block;
+  width: 200px; /* Adjust the width as needed */
+  border: none;
+  background-color: rgb(8, 181, 8);
+  padding: 40px 80px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  opacity: 0.9;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #0a0a0a;
+  border-style: ridge;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: 45px;
+}
+
+.block1:hover {
+  background-color: #aca12b;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+/* Added CSS code */
+.block .button-text,
+.block1 .button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+/* Added CSS code */
+.block1 .button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+ 
+.year{
+  font-size: 22px;
+}
